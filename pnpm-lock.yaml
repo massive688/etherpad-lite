@@ -249,8 +249,8 @@ importers:
         specifier: ^7.6.3
         version: 7.6.3
       socket.io:
-        specifier: ^4.7.5
-        version: 4.7.5
+        specifier: ^4.8.0
+        version: 4.8.0
       socket.io-client:
         specifier: ^4.7.5
         version: 4.7.5
@@ -934,6 +934,7 @@ packages:
   '@koa/router@12.0.1':
     resolution: {integrity: sha512-ribfPYfHb+Uw3b27Eiw6NPqjhIhTpVFzEWLwyc/1Xp+DCdwRRyIlAUODX+9bPARF6aQtUu1+/PHzdNvRzcs/+Q==}
     engines: {node: '>= 12'}
+    deprecated: Use v12.0.2 or higher to fix the vulnerability issue
 
   '@nodelib/fs.scandir@2.1.5':
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
@@ -2421,8 +2422,8 @@ packages:
     resolution: {integrity: sha512-HqD3yTBfnBxIrbnM1DoD6Pcq8NECnh8d4As1Qgh0z5Gg3jRRIqijury0CL3ghu/edArpUYiYqQiDUQBIs4np3Q==}
     engines: {node: '>=10.0.0'}
 
-  engine.io@6.5.5:
-    resolution: {integrity: sha512-C5Pn8Wk+1vKBoHghJODM63yk8MvrO9EWZUfkAt5HAqIgPE4/8FF0PEGHXtEd40l223+cE5ABWuPzm38PHFXfMA==}
+  engine.io@6.6.1:
+    resolution: {integrity: sha512-NEpDCw9hrvBW+hVEOK4T7v0jFJ++KgtPl4jKFwsZVfG1XhS0dCrSb3VMb9gPAd7VAdW52VT1EnaNiU2vM8C0og==}
     engines: {node: '>=10.2.0'}
 
   enhanced-resolve@5.17.0:
@@ -4138,8 +4139,8 @@ packages:
     resolution: {integrity: sha512-/GbIKmo8ioc+NIWIhwdecY0ge+qVBSMdgxGygevmdHj24bsfgtCmcUUcQ5ZzcylGFHsN3k4HB4Cgkl96KVnuew==}
     engines: {node: '>=10.0.0'}
 
-  socket.io@4.7.5:
-    resolution: {integrity: sha512-DmeAkF6cwM9jSfmp6Dr/5/mfMwb5Z5qRrSXLpo3Fq5SqyU8CMF15jIN4ZhfSwu35ksM1qmHZDQ/DK5XTccSTvA==}
+  socket.io@4.8.0:
+    resolution: {integrity: sha512-8U6BEgGjQOfGz3HHTYaC/L1GaxDCJ/KM0XTkJly0EhZ5U/du9uNEZy4ZgYzEzIqlx2CMm25CrCqr1ck899eLNA==}
     engines: {node: '>=10.2.0'}
 
   socks-proxy-agent@8.0.4:
@@ -6774,7 +6775,7 @@ snapshots:
 
   engine.io-parser@5.2.3: {}
 
-  engine.io@6.5.5:
+  engine.io@6.6.1:
     dependencies:
       '@types/cookie': 0.4.1
       '@types/cors': 2.8.17
@@ -8842,13 +8843,13 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  socket.io@4.7.5:
+  socket.io@4.8.0:
     dependencies:
       accepts: 1.3.8
       base64id: 2.0.0
       cors: 2.8.5
-      debug: 4.3.5(supports-color@8.1.1)
-      engine.io: 6.5.5
+      debug: 4.3.7
+      engine.io: 6.6.1
       socket.io-adapter: 2.5.5
       socket.io-parser: 4.2.4
     transitivePeerDependencies:
